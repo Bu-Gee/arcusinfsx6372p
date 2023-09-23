@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="53">
+    <author>Bu_Gee</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Arcusin FSX 63.72 Turbo 5x</en>
+    </title>
+    <description>
+        <en>
+<![CDATA[
+Faster Arcusin FSX 63.72 
+]]>
+        </en>
+    </description>
+    <iconFilename>icon.png</iconFilename>
+    <multiplayer supported="true" />
+    <storeItems>
+        <storeItem xmlFilename="arcusinFSX6372plus.xml"/>
+    </storeItems>
+    <brands>
+        <brand name="URSUS" title="Ursus" image="brand_ursus.dds"/>
+    </brands>
+
+    <l10n>  
+        <text name="configuration_Kuhn_Red">
+         <en>Kuhn Red</en>
+         <de>Kuhn Rot</de>
+         <fr>Kuhn Rouge</fr>
+        </text>
+        <text name="configuration_Ursus_Red">
+         <en>Ursus Red</en>
+         <de>Ursus Rot</de>
+         <fr>Ursus Rouge</fr>
+        </text>
+        <text name="configuration_Kverneland_Red">
+         <en>Kverneland Red</en>
+         <de>Kverneland Rot</de>
+         <fr>Kverneland Rouge</fr>
+        </text>
+        <text name="configuration_Vicon_Red">
+         <en>Vicon Red</en>
+         <de>Vicon Rot</de>
+         <fr>Vicon Rouge</fr>
+        </text>
+        <text name="configuration_DeutzFahr_Green">
+         <en>Deutz Fahr Green</en>
+         <de>Deutz Fahr Grün</de>
+         <fr>Deutz Fahr Vert</fr>
+        </text>
+    </l10n>
+
+</modDesc>

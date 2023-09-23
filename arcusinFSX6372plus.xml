@@ -3,7 +3,7 @@
     <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
 
     <storeData>
-        <name>FSX 63.72</name>
+        <name>FSX 63.72 Turbo 5x</name>
         <functions>
             <function>$l10n_function_baleStacker</function>
         </functions>
@@ -133,53 +133,53 @@
     <animations>
         <!-- move from work to drop position -->
         <animation name="baleGrabberWorkToDrop">
-            <part node="baleCatcher" startTime="0" duration="0.6" startRot="0 0 0" endRot="0 0 -94"/>
+            <part node="baleCatcher" startTime="0" duration="0.12" startRot="0 0 0" endRot="0 0 -94"/>
         </animation>
         <!-- drop bale from grabber to platform -->
         <animation name="baleGrabberDropBale">
-            <part node="baleCatcherJoint"    startTime="0" duration="1" endTrans="0.012 -0.093 -2.396" endRot="-4.568 0.023 0.484"/>
+            <part node="baleCatcherJoint"    startTime="0" duration="0.2" endTrans="0.012 -0.093 -2.396" endRot="-4.568 0.023 0.484"/>
             <!-- <part node="baleCatcherRotPart1" startTime="0" duration="1" startRot="0 0 0" endRot="-1080 0 0" /> -->
         </animation>
         <!-- move from transform to work position -->
         <animation name="baleGrabberTransportToWork">
-            <part node="baleArm" startTime="0" duration="2.5" startRot="0 0 -105" endRot="0 0 0"/>
+            <part node="baleArm" startTime="0" duration="0.5" startRot="0 0 -105" endRot="0 0 0"/>
         </animation>
 
         <animation name="frontBalePusher">
-            <part node="balePusher" startTime="0" duration="0.77" startTrans="0 0 0" endTrans="0 0 -1.491" />
+            <part node="balePusher" startTime="0" duration="0.15" startTrans="0 0 0" endTrans="0 0 -1.491" />
         </animation>
         <animation name="balesToOtherRow">
-            <part node="bale1Transform" startTime="0" duration="0.77" startTrans="0.075 0 0" endTrans="-1.416 0 0" />
+            <part node="bale1Transform" startTime="0" duration="0.15" startTrans="0.075 0 0" endTrans="-1.416 0 0" />
         </animation>
 
         <animation name="rotatePlatform">
-            <part node="bale2Transform"   startTime="0"    duration="0.16" startTrans="0.075 0 0"  endTrans="-0.220 0 0" />
-            <part node="balePusher"       startTime="0"    duration="0.16" startTrans="0 0 0"      endTrans="0 0 -0.295" />
-            <part node="balePusher"       startTime="0.16" duration="0.32" startTrans="0 0 -0.295" endTrans="0 0 0" />
-            <part node="frontPlattform"   startTime="0.32" duration="2"    startRot="0 0 0"        endRot="-90.4 0 0" />
+            <part node="bale2Transform"   startTime="0"    duration="0.032" startTrans="0.075 0 0"  endTrans="-0.220 0 0" />
+            <part node="balePusher"       startTime="0"    duration="0.032" startTrans="0 0 0"      endTrans="0 0 -0.295" />
+            <part node="balePusher"       startTime="0.16" duration="0.064" startTrans="0 0 -0.295" endTrans="0 0 0" />
+            <part node="frontPlattform"   startTime="0.32" duration="0.4"    startRot="0 0 0"        endRot="-90.4 0 0" />
         </animation>
 
         <animation name="rotatePlatformBack">
-            <part node="bale2Transform"   startTime="0"    duration="0.16" startTrans="0.075 0 0"  endTrans="-0.220 0 0" />
-            <part node="frontPlattform"   startTime="0.32" duration="2"    startRot="0 0 0"        endRot="-90.4 0 0" />
+            <part node="bale2Transform"   startTime="0"    duration="0.032" startTrans="0.075 0 0"  endTrans="-0.220 0 0" />
+            <part node="frontPlattform"   startTime="0.32" duration="0.4"    startRot="0 0 0"        endRot="-90.4 0 0" />
         </animation>
 
         <animation name="emptyRotate">
-            <part node="mainPlattform" startTime="0" duration="10" endRot="-87 0 0" />
-            <part node="mainPlattformDummyRef" startTime="0" duration="5" endRot="-43.5 0 0" />
+            <part node="mainPlattform" startTime="0" duration="2" endRot="-87 0 0" />
+            <part node="mainPlattformDummyRef" startTime="0" duration="1" endRot="-43.5 0 0" />
         </animation>
 
         <animation name="moveBalePlaces">
-            <part node="clipper"                 startTime="0" duration="20" startTrans="0 0 0" endTrans="0 0 -5.5" />
-            <part node="ropes"                   startTime="0" duration="20" shaderParameter="beltPos" shaderStartValues="0 0 0 0" shaderEndValues="-2.747 0 0 0" />
-            <part node="hydraulicClipperPunch"   startTime="0" duration="20" startTrans="0 0 0" endTrans="0 0 -1.536" />
-            <part node="hydraulicClipperPunch2"  startTime="0" duration="20" startTrans="0 0 0" endTrans="0 0 -1.21" />
+            <part node="clipper"                 startTime="0" duration="4" startTrans="0 0 0" endTrans="0 0 -5.5" />
+            <part node="ropes"                   startTime="0" duration="4" shaderParameter="beltPos" shaderStartValues="0 0 0 0" shaderEndValues="-2.747 0 0 0" />
+            <part node="hydraulicClipperPunch"   startTime="0" duration="4" startTrans="0 0 0" endTrans="0 0 -1.536" />
+            <part node="hydraulicClipperPunch2"  startTime="0" duration="4" startTrans="0 0 0" endTrans="0 0 -1.21" />
         </animation>
         <animation name="moveBalePlacesToEmpty">
-            <part node="clipper"                 startTime="0" duration="20" startTrans="0 0 0" endTrans="0 0 -5.5" />
-            <part node="ropes"                   startTime="0" duration="20" shaderParameter="beltPos" shaderStartValues="0 0 0 0" shaderEndValues="-2.747 0 0 0" />
-            <part node="hydraulicClipperPunch"   startTime="0" duration="20" startTrans="0 0 0" endTrans="0 0 -1.536" />
-            <part node="hydraulicClipperPunch2"  startTime="0" duration="20" startTrans="0 0 0" endTrans="0 0 -1.21" />
+            <part node="clipper"                 startTime="0" duration="4" startTrans="0 0 0" endTrans="0 0 -5.5" />
+            <part node="ropes"                   startTime="0" duration="4" shaderParameter="beltPos" shaderStartValues="0 0 0 0" shaderEndValues="-2.747 0 0 0" />
+            <part node="hydraulicClipperPunch"   startTime="0" duration="4" startTrans="0 0 0" endTrans="0 0 -1.536" />
+            <part node="hydraulicClipperPunch2"  startTime="0" duration="4" startTrans="0 0 0" endTrans="0 0 -1.21" />
         </animation>
 
         <animation name="moveBalePusherToEmpty">
@@ -189,7 +189,7 @@
         </animation>
 
         <animation name="releaseFrontplattform" resetOnStart="false">
-            <part node="frontPlattform" startTime="0" duration="1" startRot="-90.4 0 0" endRot="-75 0 0" />
+            <part node="frontPlattform" startTime="0" duration="0.2" startRot="-90.4 0 0" endRot="-75 0 0" />
         </animation>
 
         <animation name="closeGrippers">
