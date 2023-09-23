@@ -13,4 +13,4 @@ zip -r ../arcusinfsx6372p.zip . -x "./.git/*" -x README.md
 
 This is NOT free software.
 
-This is derived from the FS19 base Kuhn SW 4014 baler and is owned by GIANTS.  Please do not treat it as free software.
+This is derived from the FS19 base Arcusin FSX 63.72 bale transporter and is owned by GIANTS.  Even though every effort was made to minimize the content reused from GIANTS, please do not treat it as free software.
